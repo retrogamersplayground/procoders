@@ -54,11 +54,84 @@ table {
 /*beginning of css updates*/
 
 
-
+body {
+	font-family: Sans-Serif;
+	color: #ffffff;
+}
 
 header, footer {
 	background-color: #0f3246;
 }
+
+h1 { 
+	color: #f39e14;
+	font-size: 24px;
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+/*header*/
+
+header nav ul li {
+	display: inline-block;
+}
+
+header nav ul li a{
+	color: #ffffff;
+}
+	
+	
+
+
+header nav ul form input {
+	background-color: #1a5273;
+	border: 0px;
+}
+	
+article { 
+	background-color: #e9eaee;
+}
+	
+	
+/*sectionOne*/	
+.sectionOne ul {
+	width: 80%;
+}
+
+.sectionOne ul li {
+	width: 900px;
+	display: inline-block;
+	width: 30%;
+}
+.sectionOne {
+	
+
+.sectionOne ul li ul {
+	background-color: #175c8a;
+}
+
+.sectionOne ul li ul li {
+	border: 2px solid #1a5273;
+	border-right: none;
+	
+}
+
+/*sectionTwo*/
+.sectionTwo {
+	color: #405467;
+}
+.sectionTwo ul li {
+	display: inline-block;
+	width: 30%;
+}
+
+
+/*footer*/
 
 footer {
 	
@@ -71,4 +144,3 @@ footer h3 {
 	padding-bottom: 10px;
 	text-align: center;
 }
-
