@@ -54,3 +54,21 @@ table {
 /*beginning of css updates*/
 
 
+
+
+header, footer {
+	background-color: #0f3246;
+}
+
+footer {
+	
+	color: #ffffff;
+}
+
+footer h3 {
+	background-color: #0a1e2d;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
