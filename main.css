@@ -33,6 +33,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-size: 10px;
 }
 ol, ul {
 	list-style: none;
@@ -100,25 +101,36 @@ article {
 	
 /*sectionOne*/	
 .sectionOne ul {
-	width: 80%;
+	
 }
 
 .sectionOne ul li {
 	width: 900px;
 	display: inline-block;
-	width: 30%;
+	width: 100%;
+	font-size: 10px;
 }
-.sectionOne {
-	
 
 .sectionOne ul li ul {
 	background-color: #175c8a;
+	
 }
 
 .sectionOne ul li ul li {
 	border: 2px solid #1a5273;
 	border-right: none;
+	display: block;
+	width: 100%;
 	
+	
+}
+
+.sectionOneImg {
+	background-image: url("https://thumb1.shutterstock.com/display_pic_with_logo/1506158/490695244/stock-photo-young-cheerful-woman-on-cell-phone-looking-at-laptop-monitor-in-startup-office-490695244.jpg");
+}
+
+.sectionOneOverlay {
+	background-color:rgba(0,0,0,0.5);
 }
 
 /*sectionTwo*/
@@ -127,14 +139,13 @@ article {
 }
 .sectionTwo ul li {
 	display: inline-block;
-	width: 30%;
+	width: 33%;
 }
 
 
 /*footer*/
 
 footer {
-	
 	color: #ffffff;
 }
 
@@ -143,4 +154,59 @@ footer h3 {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
+}
+
+footer li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.footerUlMain {
+	width: 80%;
+	padding: 20px;
+	margin: auto;
+}
+
+.footerUlMain li{
+	display: inline-block;
+	width: 30%;
+	
+}
+
+.footerUlOne li{
+	display: block;
+	width: 100%;
+	background-color: #144565;
+}
+
+.footerUlOne li:nth-child(even) {
+	background-color: #0d283b;
+}
+
+
+.footerUlTwo li {
+	display: block;
+	width: 100%;
+	background-color: #144565;
+}
+
+.footerUlTwo li:nth-child(even) {
+	background-color: #0d283b;
+}
+
+.footerUlThree li {
+	display: block;
+	width: 100%;
+	text-align: left;
+}
+
+.footerUlThree h2, span {
+	color: #fea339;
+}
+
+.footerUlThree li ul li {
+	display: inline-block;
+	width: 10%;
 }
