@@ -78,14 +78,23 @@ a {
 
 /*header*/
 
+header nav ul {
+	width: 80%;
+	margin: auto;
+	padding-bottom: 100px;
+}
+
+
+
 header nav ul li {
 	display: inline-block;
+	width: 20%;
+	
 }
 
 header nav ul li a{
 	color: #ffffff;
 }
-	
 	
 
 
@@ -100,10 +109,16 @@ article {
 	
 	
 /*sectionOne*/	
+.sectionOne {
+	position: absolute;
+	top: 150px;
+}
+
 .sectionOne ul {
 	width: 80%;
 	margin: auto;
 	background-color: #1a5273;
+	border-radius: 6px;
 }
 
 .sectionOne ul li {
@@ -172,6 +187,7 @@ textarea {
 
 /*sectionTwo*/
 .sectionTwo {
+	padding-top: 160px;
 	color: #405467;
 }
 .sectionTwo ul {
