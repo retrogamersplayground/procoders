@@ -64,12 +64,6 @@ header, footer {
 	background-color: #0f3246;
 }
 
-h1 { 
-	color: #f39e14;
-	font-size: 24px;
-	
-}
-
 a {
 	text-decoration: none;
 }
@@ -79,33 +73,42 @@ a {
 /*header*/
 
 header nav ul {
-	width: 80%;
-	margin: auto;
-	padding-bottom: 100px;
+	position: absolute;
+	top: 0px;
+	left: 250px;
 }
 
 
 
 header nav ul li {
 	display: inline-block;
-	width: 20%;
-	
 }
 
 header nav ul li a{
 	color: #ffffff;
 }
-	
-
 
 header nav ul form input {
 	background-color: #1a5273;
 	border: 0px;
 }
-	
+
+h1 { 
+	color: #f39e14;
+	font-size: 24px;
+	padding-left: 150px;
+	padding-top: 20px;
+}
+
+header nav h2 {
+	padding-left: 175px;
+	padding-bottom: 200px;
+}
+
 article { 
 	background-color: #e9eaee;
 }
+	
 	
 	
 /*sectionOne*/	
@@ -143,26 +146,6 @@ article {
 	width: 100%;	
 }
 
-.formLi {
-	background-color: #174c6c;
-}
-
-.sectionOne input {
-	height: 15px;
-	margin-bottom: 10px;
-	width: 50%;
-	background-color: #0f3246;
-	border: none;
-	border-radius: 3px;
-}
-
-textarea {
-	width: 50%;
-	height: 50px;
-	background-color: #0f3246;
-	border: none;
-	border-radius: 3px;
-}
 
 .sectionOneImg {
 	height: 160px;
@@ -185,7 +168,40 @@ textarea {
 	color: #d19717;
 }
 
+/*sectionOne form*/
+
+.formLi {
+	background-color: #174c6c;
+}
+
+.formLi p {
+	margin-bottom: 20px;
+}
+
+.sectionOne input {
+	height: 15px;
+	margin-bottom: 10px;
+	margin-left: 100px;
+	width: 50%;
+	background-color: #0f3246;
+	border: none;
+	border-radius: 3px;
+}
+
+textarea {
+	width: 50%;
+	height: 50px;
+	margin-bottom: 10px;
+	margin-left: 100px;
+	background-color: #0f3246;
+	border: none;
+	border-radius: 3px;
+}
+
+
+
 /*sectionTwo*/
+
 .sectionTwo {
 	padding-top: 160px;
 	color: #405467;
@@ -227,6 +243,7 @@ textarea {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
 
 /*footer*/
 
