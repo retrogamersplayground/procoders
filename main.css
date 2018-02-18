@@ -69,7 +69,6 @@ a {
 }
 
 
-
 /*header*/
 
 header nav ul {
@@ -130,15 +129,22 @@ article {
 	font-size: 10px;
 	padding: 10px;
 }
+
+.listLi {
+	width: 20%;
+}
+
 .list {
 	border: 1px solid #0f3246;
 }
 
+.imgLi {
+	width: 40%;
+}
 
 .sectionOne ul li ul {
 	width: 100%;
-	background-color: #175c8a;
-	
+	background-color: #175c8a;	
 }
 
 .sectionOne ul li ul li {
@@ -160,8 +166,17 @@ article {
 .sectionOneOverlay h2 {
 	color: #d19717;
 }
+
+.fa-arrow-circle-up {
+	display: inline-block;
+	font-size: 24px;
+}
+
+
+
 .sectionOneOverlay p {
 	color: #ffffff;
+	
 }
 
 .sectionOneOverlay a {
@@ -206,6 +221,17 @@ textarea {
 	padding-top: 160px;
 	color: #405467;
 }
+
+.sectionTwo h2 {
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.sectionTwo a {
+	color: #405467;
+	font-weight: 800;
+}
+	
 .sectionTwo ul {
 	width: 80%;
 	margin: auto;
@@ -311,4 +337,26 @@ footer li {
 .footerUlThree li ul li {
 	display: inline-block;
 	width: 10%;
+}
+
+/*social media*/
+
+.fa-facebook-f {
+	font-size: 16px;
+}
+
+.fa-twitter {
+	font-size: 16px;
+}
+
+.fa-google-plus-g {
+	font-size: 16px;
+}
+
+.fa-linkedin-in {
+	font-size: 16px;
+}
+
+.fa-skype {
+	font-size: 16px;
 }
