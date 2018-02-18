@@ -343,20 +343,31 @@ footer li {
 
 .fa-facebook-f {
 	font-size: 16px;
+	color: #0f3246;
 }
 
 .fa-twitter {
 	font-size: 16px;
+	color: #0f3246;
 }
 
 .fa-google-plus-g {
 	font-size: 16px;
+	color: #0f3246;
 }
 
 .fa-linkedin-in {
 	font-size: 16px;
+	color: #0f3246;
 }
 
 .fa-skype {
-	font-size: 16px;
+	font-size: 28px;
+	color: #174c6c;
+	background-color: #0f3246;
+}
+
+.fa-square {
+	font-size: 28px;
+	color: #174c6c;
 }
