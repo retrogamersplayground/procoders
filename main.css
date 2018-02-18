@@ -101,47 +101,116 @@ article {
 	
 /*sectionOne*/	
 .sectionOne ul {
-	
+	width: 80%;
+	margin: auto;
+	background-color: #1a5273;
 }
 
 .sectionOne ul li {
-	width: 900px;
+	width: 30%;
 	display: inline-block;
-	width: 100%;
 	font-size: 10px;
+	padding: 10px;
+}
+.list {
+	border: 1px solid #0f3246;
 }
 
+
 .sectionOne ul li ul {
+	width: 100%;
 	background-color: #175c8a;
 	
 }
 
 .sectionOne ul li ul li {
-	border: 2px solid #1a5273;
-	border-right: none;
 	display: block;
-	width: 100%;
-	
-	
+	width: 100%;	
+}
+
+.formLi {
+	background-color: #174c6c;
+}
+
+.sectionOne input {
+	height: 15px;
+	margin-bottom: 10px;
+	width: 50%;
+	background-color: #0f3246;
+	border: none;
+	border-radius: 3px;
+}
+
+textarea {
+	width: 50%;
+	height: 50px;
+	background-color: #0f3246;
+	border: none;
+	border-radius: 3px;
 }
 
 .sectionOneImg {
+	height: 160px;
 	background-image: url("https://thumb1.shutterstock.com/display_pic_with_logo/1506158/490695244/stock-photo-young-cheerful-woman-on-cell-phone-looking-at-laptop-monitor-in-startup-office-490695244.jpg");
 }
 
 .sectionOneOverlay {
+	padding-top: 60px;
 	background-color:rgba(0,0,0,0.5);
+}
+
+.sectionOneOverlay h2 {
+	color: #d19717;
+}
+.sectionOneOverlay p {
+	color: #ffffff;
+}
+
+.sectionOneOverlay a {
+	color: #d19717;
 }
 
 /*sectionTwo*/
 .sectionTwo {
 	color: #405467;
 }
-.sectionTwo ul li {
-	display: inline-block;
-	width: 33%;
+.sectionTwo ul {
+	width: 80%;
+	margin: auto;
 }
 
+.sectionTwo ul li {
+	display: inline-block;
+	width: 30%;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
+.sectionTwo ul li ul {
+	width: 100%;
+}
+
+.sectionTwo ul li ul li {
+	width: 100%;
+}
+
+.sectionTwo ul li ul li p{
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #405c6c;
+}
+
+.readMore{
+	margin-bottom: 30px;
+}
+
+.sectionTwo img {
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
 /*footer*/
 
