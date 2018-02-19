@@ -75,12 +75,44 @@ header nav ul {
 	position: absolute;
 	top: 0px;
 	left: 250px;
+	width: 300px;
+	background-color: #1a5273;
 }
 
+nav input {
+	border-radius: 4px;
+}
 
+.nav {
+	width: 15%;
+	display: inline-block;
+}
+.navFormUl {
+	background-color: #0f3246;
+	margin-left: 50px;
+}
+.navForm {
+	display: inline-block;
+	padding: 5px;	
+}
+
+.navList {
+	margin-top: 40px;	
+}
+
+.go {
+	width: 25px;
+	color: #f8a03d;
+	font-size: 10px;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
 
 header nav ul li {
-	display: inline-block;
+	display: block;
+	margin-bottom: 20px;
 }
 
 header nav ul li a{
@@ -90,6 +122,7 @@ header nav ul li a{
 header nav ul form input {
 	background-color: #1a5273;
 	border: 0px;
+	width: 50px;
 }
 
 h1 { 
@@ -136,6 +169,11 @@ article {
 
 .list {
 	border: 1px solid #0f3246;
+}
+
+.list p {
+	padding-left: 10px;
+	display: inline-block;
 }
 
 .imgLi {
@@ -337,6 +375,8 @@ footer li {
 .footerUlThree li ul li {
 	display: inline-block;
 	width: 10%;
+	padding-right: 5px;
+	margin: 0px;
 }
 
 /*social media*/
@@ -370,4 +410,13 @@ footer li {
 .fa-square {
 	font-size: 28px;
 	color: #174c6c;
+}
+
+footer .fa-arrow-alt-circle-right {
+	display: inline-block;
+	padding: 5px;
+}
+
+footer p {
+	display: inline-block;
 }
